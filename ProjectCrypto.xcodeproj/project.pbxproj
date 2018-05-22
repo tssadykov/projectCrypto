@@ -7,23 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31F2DCE669392B8D677A8CC2 /* Pods_ProjectCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCB1CA1C9B48DBD3DED2932 /* Pods_ProjectCrypto.framework */; };
+		39016B49203E957400E7580E /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39016B48203E957400E7580E /* Coin.swift */; };
+		39016B4C203E959F00E7580E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39016B4B203E959F00E7580E /* APIManager.swift */; };
+		39016B4E203E95BE00E7580E /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39016B4D203E95BE00E7580E /* ErrorManager.swift */; };
+		39016B51203E95E200E7580E /* KrakenAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39016B50203E95E200E7580E /* KrakenAPIManager.swift */; };
+		39016B53203E960200E7580E /* KrakenResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39016B52203E960200E7580E /* KrakenResult.swift */; };
+		39016B57203E9D8300E7580E /* ExchangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39016B56203E9D8300E7580E /* ExchangeCell.swift */; };
+		3908BCC8208672BC00C5E544 /* AddCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908BCC7208672BC00C5E544 /* AddCoinViewController.swift */; };
+		390B70DA208B62C0000B0CA7 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B70D9208B62C0000B0CA7 /* CurrencyCell.swift */; };
+		391475332043269B007E8147 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391475322043269B007E8147 /* NewsTableViewCell.swift */; };
+		392691D32044741D00E1A994 /* NewsContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392691D22044741D00E1A994 /* NewsContentTableViewController.swift */; };
+		392691D620447A0700E1A994 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392691D520447A0700E1A994 /* ImageTableViewCell.swift */; };
+		392691D820447A1A00E1A994 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392691D720447A1A00E1A994 /* TitleTableViewCell.swift */; };
+		392691DA20447A2700E1A994 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392691D920447A2700E1A994 /* ContentTableViewCell.swift */; };
+		3932DC2520905140000F97C1 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3932DC2420905140000F97C1 /* EmailViewController.swift */; };
+		3932DC27209051F5000F97C1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3932DC26209051F5000F97C1 /* MessageUI.framework */; };
+		393980402046DD9800931001 /* MainImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939803F2046DD9800931001 /* MainImageTableViewCell.swift */; };
+		39483EFA20A81EDC006E025E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39483EF920A81EDB006E025E /* GoogleService-Info.plist */; };
+		395A243B203EE0E700E39825 /* BittrexAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A243A203EE0E700E39825 /* BittrexAPIManager.swift */; };
+		395A243D203EE10700E39825 /* BittrexResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A243C203EE10700E39825 /* BittrexResult.swift */; };
+		395A2442203EE16900E39825 /* BithumbAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A2441203EE16900E39825 /* BithumbAPIManager.swift */; };
+		395A2444203EE19400E39825 /* BithumbResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A2443203EE19400E39825 /* BithumbResult.swift */; };
+		395A2447203EE1B900E39825 /* PoloniexAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A2446203EE1B900E39825 /* PoloniexAPIManager.swift */; };
+		395A2449203EE1D800E39825 /* PoloniexResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A2448203EE1D800E39825 /* PoloniexResult.swift */; };
 		395D7F27203C65E4009DA67C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D7F26203C65E4009DA67C /* AppDelegate.swift */; };
-		395D7F29203C65E4009DA67C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D7F28203C65E4009DA67C /* ViewController.swift */; };
+		395D7F29203C65E4009DA67C /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D7F28203C65E4009DA67C /* ContainerVC.swift */; };
 		395D7F2C203C65E4009DA67C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395D7F2A203C65E4009DA67C /* Main.storyboard */; };
 		395D7F2F203C65E4009DA67C /* ProjectCrypto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 395D7F2D203C65E4009DA67C /* ProjectCrypto.xcdatamodeld */; };
 		395D7F31203C65E4009DA67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395D7F30203C65E4009DA67C /* Assets.xcassets */; };
 		395D7F34203C65E4009DA67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395D7F32203C65E4009DA67C /* LaunchScreen.storyboard */; };
+		3990D85B20401D080093086F /* APINewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3990D85A20401D080093086F /* APINewsManager.swift */; };
+		3990D85D20401D600093086F /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3990D85C20401D600093086F /* News.swift */; };
+		399CFCD82081370D001315F4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CFCD72081370D001315F4 /* StartViewController.swift */; };
+		39D0342D203E151300EA9BBA /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0342C203E151300EA9BBA /* ExchangeViewController.swift */; };
+		39E76E9D203D3BD80012B848 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E76E9C203D3BD80012B848 /* SideMenuVC.swift */; };
+		39E76E9F203D42F40012B848 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E76E9E203D42F40012B848 /* MainVC.swift */; };
+		39E820C82085DAC9002EE831 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E820C72085DAC9002EE831 /* PortfolioViewController.swift */; };
+		39E820CA20860512002EE831 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E820C920860511002EE831 /* TopViewController.swift */; };
+		39E820CD20861D6A002EE831 /* exchangeChooseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E820CC20861D6A002EE831 /* exchangeChooseTableViewController.swift */; };
+		39ECDB4A20833B3B006A90B8 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ECDB4920833B3B006A90B8 /* ContentViewController.swift */; };
+		39EEA8552051CD5800E28EFE /* ExchImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EEA8542051CD5800E28EFE /* ExchImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CCB1CA1C9B48DBD3DED2932 /* Pods_ProjectCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39016B48203E957400E7580E /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		39016B4B203E959F00E7580E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		39016B4D203E95BE00E7580E /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		39016B50203E95E200E7580E /* KrakenAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrakenAPIManager.swift; sourceTree = "<group>"; };
+		39016B52203E960200E7580E /* KrakenResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrakenResult.swift; sourceTree = "<group>"; };
+		39016B56203E9D8300E7580E /* ExchangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCell.swift; sourceTree = "<group>"; };
+		3908BCC7208672BC00C5E544 /* AddCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoinViewController.swift; sourceTree = "<group>"; };
+		390B70D9208B62C0000B0CA7 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		391475322043269B007E8147 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		392691D22044741D00E1A994 /* NewsContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsContentTableViewController.swift; sourceTree = "<group>"; };
+		392691D520447A0700E1A994 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		392691D720447A1A00E1A994 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		392691D920447A2700E1A994 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		3932DC2420905140000F97C1 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		3932DC26209051F5000F97C1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3939803F2046DD9800931001 /* MainImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageTableViewCell.swift; sourceTree = "<group>"; };
+		39483EF920A81EDB006E025E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		395A243A203EE0E700E39825 /* BittrexAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BittrexAPIManager.swift; sourceTree = "<group>"; };
+		395A243C203EE10700E39825 /* BittrexResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BittrexResult.swift; sourceTree = "<group>"; };
+		395A2441203EE16900E39825 /* BithumbAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BithumbAPIManager.swift; sourceTree = "<group>"; };
+		395A2443203EE19400E39825 /* BithumbResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BithumbResult.swift; sourceTree = "<group>"; };
+		395A2446203EE1B900E39825 /* PoloniexAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoloniexAPIManager.swift; sourceTree = "<group>"; };
+		395A2448203EE1D800E39825 /* PoloniexResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoloniexResult.swift; sourceTree = "<group>"; };
 		395D7F23203C65E4009DA67C /* ProjectCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		395D7F26203C65E4009DA67C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		395D7F28203C65E4009DA67C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		395D7F28203C65E4009DA67C /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		395D7F2B203C65E4009DA67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		395D7F2E203C65E4009DA67C /* ProjectCrypto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectCrypto.xcdatamodel; sourceTree = "<group>"; };
 		395D7F30203C65E4009DA67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		395D7F33203C65E4009DA67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		395D7F35203C65E4009DA67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39717A3F20A1C67300A0785E /* ProjectCrypto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectCrypto.entitlements; sourceTree = "<group>"; };
+		3990D85A20401D080093086F /* APINewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINewsManager.swift; sourceTree = "<group>"; };
+		3990D85C20401D600093086F /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		399CFCD72081370D001315F4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		39D0342C203E151300EA9BBA /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		39E76E9C203D3BD80012B848 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		39E76E9E203D42F40012B848 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		39E820C72085DAC9002EE831 /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		39E820C920860511002EE831 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		39E820CC20861D6A002EE831 /* exchangeChooseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exchangeChooseTableViewController.swift; sourceTree = "<group>"; };
+		39ECDB4920833B3B006A90B8 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		39EEA8542051CD5800E28EFE /* ExchImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchImageCell.swift; sourceTree = "<group>"; };
+		951C9819B1F1AD14D4FF27B0 /* Pods-ProjectCrypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectCrypto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectCrypto/Pods-ProjectCrypto.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4618A7A4A0889EEBF07DFC /* Pods-ProjectCrypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectCrypto.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectCrypto/Pods-ProjectCrypto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +104,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3932DC27209051F5000F97C1 /* MessageUI.framework in Frameworks */,
+				31F2DCE669392B8D677A8CC2 /* Pods_ProjectCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39016B4A203E958C00E7580E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3990D85920401BE80093086F /* Google news */,
+				395A2445203EE1A700E39825 /* Poloniex */,
+				395A2440203EE14700E39825 /* Bithumb */,
+				395A2439203EE0CA00E39825 /* Bittrex */,
+				39016B4F203E95CF00E7580E /* Kraken */,
+				39016B4B203E959F00E7580E /* APIManager.swift */,
+				39016B4D203E95BE00E7580E /* ErrorManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		39016B4F203E95CF00E7580E /* Kraken */ = {
+			isa = PBXGroup;
+			children = (
+				39016B50203E95E200E7580E /* KrakenAPIManager.swift */,
+				39016B52203E960200E7580E /* KrakenResult.swift */,
+			);
+			path = Kraken;
+			sourceTree = "<group>";
+		};
+		392691D4204479D800E1A994 /* Content cells */ = {
+			isa = PBXGroup;
+			children = (
+				392691D520447A0700E1A994 /* ImageTableViewCell.swift */,
+				392691D720447A1A00E1A994 /* TitleTableViewCell.swift */,
+				392691D920447A2700E1A994 /* ContentTableViewCell.swift */,
+			);
+			path = "Content cells";
+			sourceTree = "<group>";
+		};
+		3939803E2046DD7600931001 /* Main cells */ = {
+			isa = PBXGroup;
+			children = (
+				391475322043269B007E8147 /* NewsTableViewCell.swift */,
+				3939803F2046DD9800931001 /* MainImageTableViewCell.swift */,
+			);
+			path = "Main cells";
+			sourceTree = "<group>";
+		};
+		3939ACC3DFE87875282C3D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3932DC26209051F5000F97C1 /* MessageUI.framework */,
+				2CCB1CA1C9B48DBD3DED2932 /* Pods_ProjectCrypto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		395A2439203EE0CA00E39825 /* Bittrex */ = {
+			isa = PBXGroup;
+			children = (
+				395A243A203EE0E700E39825 /* BittrexAPIManager.swift */,
+				395A243C203EE10700E39825 /* BittrexResult.swift */,
+			);
+			path = Bittrex;
+			sourceTree = "<group>";
+		};
+		395A2440203EE14700E39825 /* Bithumb */ = {
+			isa = PBXGroup;
+			children = (
+				395A2441203EE16900E39825 /* BithumbAPIManager.swift */,
+				395A2443203EE19400E39825 /* BithumbResult.swift */,
+			);
+			path = Bithumb;
+			sourceTree = "<group>";
+		};
+		395A2445203EE1A700E39825 /* Poloniex */ = {
+			isa = PBXGroup;
+			children = (
+				395A2446203EE1B900E39825 /* PoloniexAPIManager.swift */,
+				395A2448203EE1D800E39825 /* PoloniexResult.swift */,
+			);
+			path = Poloniex;
+			sourceTree = "<group>";
+		};
 		395D7F1A203C65E4009DA67C = {
 			isa = PBXGroup;
 			children = (
 				395D7F25203C65E4009DA67C /* ProjectCrypto */,
 				395D7F24203C65E4009DA67C /* Products */,
+				C5F89F70F74716B402D75D31 /* Pods */,
+				3939ACC3DFE87875282C3D7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +211,77 @@
 		395D7F25203C65E4009DA67C /* ProjectCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				39717A3F20A1C67300A0785E /* ProjectCrypto.entitlements */,
+				39483EF920A81EDB006E025E /* GoogleService-Info.plist */,
+				39ECDB4B20833B63006A90B8 /* Start */,
+				39EEA8532051CC5C00E28EFE /* ExchangeCells */,
+				3939803E2046DD7600931001 /* Main cells */,
+				392691D4204479D800E1A994 /* Content cells */,
+				39016B4A203E958C00E7580E /* API */,
 				395D7F26203C65E4009DA67C /* AppDelegate.swift */,
-				395D7F28203C65E4009DA67C /* ViewController.swift */,
+				39E820CB20860E2D002EE831 /* TopViewControllers */,
 				395D7F2A203C65E4009DA67C /* Main.storyboard */,
 				395D7F30203C65E4009DA67C /* Assets.xcassets */,
 				395D7F32203C65E4009DA67C /* LaunchScreen.storyboard */,
 				395D7F35203C65E4009DA67C /* Info.plist */,
 				395D7F2D203C65E4009DA67C /* ProjectCrypto.xcdatamodeld */,
+				39E76E9E203D42F40012B848 /* MainVC.swift */,
+				39D0342C203E151300EA9BBA /* ExchangeViewController.swift */,
+				39016B48203E957400E7580E /* Coin.swift */,
+				392691D22044741D00E1A994 /* NewsContentTableViewController.swift */,
+				39E820C72085DAC9002EE831 /* PortfolioViewController.swift */,
+				39E820CC20861D6A002EE831 /* exchangeChooseTableViewController.swift */,
+				3908BCC7208672BC00C5E544 /* AddCoinViewController.swift */,
+				3932DC2420905140000F97C1 /* EmailViewController.swift */,
 			);
 			path = ProjectCrypto;
+			sourceTree = "<group>";
+		};
+		3990D85920401BE80093086F /* Google news */ = {
+			isa = PBXGroup;
+			children = (
+				3990D85A20401D080093086F /* APINewsManager.swift */,
+				3990D85C20401D600093086F /* News.swift */,
+			);
+			path = "Google news";
+			sourceTree = "<group>";
+		};
+		39E820CB20860E2D002EE831 /* TopViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				395D7F28203C65E4009DA67C /* ContainerVC.swift */,
+				39E76E9C203D3BD80012B848 /* SideMenuVC.swift */,
+				39E820C920860511002EE831 /* TopViewController.swift */,
+			);
+			path = TopViewControllers;
+			sourceTree = "<group>";
+		};
+		39ECDB4B20833B63006A90B8 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				399CFCD72081370D001315F4 /* StartViewController.swift */,
+				39ECDB4920833B3B006A90B8 /* ContentViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		39EEA8532051CC5C00E28EFE /* ExchangeCells */ = {
+			isa = PBXGroup;
+			children = (
+				39016B56203E9D8300E7580E /* ExchangeCell.swift */,
+				390B70D9208B62C0000B0CA7 /* CurrencyCell.swift */,
+				39EEA8542051CD5800E28EFE /* ExchImageCell.swift */,
+			);
+			path = ExchangeCells;
+			sourceTree = "<group>";
+		};
+		C5F89F70F74716B402D75D31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				951C9819B1F1AD14D4FF27B0 /* Pods-ProjectCrypto.debug.xcconfig */,
+				9A4618A7A4A0889EEBF07DFC /* Pods-ProjectCrypto.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395D7F38203C65E4009DA67C /* Build configuration list for PBXNativeTarget "ProjectCrypto" */;
 			buildPhases = (
+				105D53C060C6D388D291AFD5 /* [CP] Check Pods Manifest.lock */,
 				395D7F1F203C65E4009DA67C /* Sources */,
 				395D7F20203C65E4009DA67C /* Frameworks */,
 				395D7F21203C65E4009DA67C /* Resources */,
+				421711D3D377EF429352DE43 /* [CP] Embed Pods Frameworks */,
+				D023AEEDA581AC1665DC6FD4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -94,12 +314,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Тимур";
 				TargetAttributes = {
 					395D7F22203C65E4009DA67C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				395D7F34203C65E4009DA67C /* LaunchScreen.storyboard in Resources */,
+				39483EFA20A81EDC006E025E /* GoogleService-Info.plist in Resources */,
 				395D7F31203C65E4009DA67C /* Assets.xcassets in Resources */,
 				395D7F2C203C65E4009DA67C /* Main.storyboard in Resources */,
 			);
@@ -134,14 +363,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		105D53C060C6D388D291AFD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectCrypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		421711D3D377EF429352DE43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProjectCrypto/Pods-ProjectCrypto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectCrypto/Pods-ProjectCrypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D023AEEDA581AC1665DC6FD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectCrypto/Pods-ProjectCrypto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		395D7F1F203C65E4009DA67C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E820CA20860512002EE831 /* TopViewController.swift in Sources */,
+				39D0342D203E151300EA9BBA /* ExchangeViewController.swift in Sources */,
+				39E820C82085DAC9002EE831 /* PortfolioViewController.swift in Sources */,
+				399CFCD82081370D001315F4 /* StartViewController.swift in Sources */,
+				3990D85B20401D080093086F /* APINewsManager.swift in Sources */,
+				392691D32044741D00E1A994 /* NewsContentTableViewController.swift in Sources */,
 				395D7F2F203C65E4009DA67C /* ProjectCrypto.xcdatamodeld in Sources */,
-				395D7F29203C65E4009DA67C /* ViewController.swift in Sources */,
+				393980402046DD9800931001 /* MainImageTableViewCell.swift in Sources */,
+				395A2442203EE16900E39825 /* BithumbAPIManager.swift in Sources */,
+				39016B57203E9D8300E7580E /* ExchangeCell.swift in Sources */,
+				392691D620447A0700E1A994 /* ImageTableViewCell.swift in Sources */,
+				39016B51203E95E200E7580E /* KrakenAPIManager.swift in Sources */,
+				39E76E9F203D42F40012B848 /* MainVC.swift in Sources */,
+				39E820CD20861D6A002EE831 /* exchangeChooseTableViewController.swift in Sources */,
+				395A243B203EE0E700E39825 /* BittrexAPIManager.swift in Sources */,
+				39016B4C203E959F00E7580E /* APIManager.swift in Sources */,
+				39016B4E203E95BE00E7580E /* ErrorManager.swift in Sources */,
+				395D7F29203C65E4009DA67C /* ContainerVC.swift in Sources */,
+				390B70DA208B62C0000B0CA7 /* CurrencyCell.swift in Sources */,
+				3932DC2520905140000F97C1 /* EmailViewController.swift in Sources */,
+				391475332043269B007E8147 /* NewsTableViewCell.swift in Sources */,
+				395A243D203EE10700E39825 /* BittrexResult.swift in Sources */,
+				395A2447203EE1B900E39825 /* PoloniexAPIManager.swift in Sources */,
+				39EEA8552051CD5800E28EFE /* ExchImageCell.swift in Sources */,
+				392691DA20447A2700E1A994 /* ContentTableViewCell.swift in Sources */,
+				392691D820447A1A00E1A994 /* TitleTableViewCell.swift in Sources */,
+				395A2449203EE1D800E39825 /* PoloniexResult.swift in Sources */,
+				3908BCC8208672BC00C5E544 /* AddCoinViewController.swift in Sources */,
+				39016B53203E960200E7580E /* KrakenResult.swift in Sources */,
 				395D7F27203C65E4009DA67C /* AppDelegate.swift in Sources */,
+				39016B49203E957400E7580E /* Coin.swift in Sources */,
+				3990D85D20401D600093086F /* News.swift in Sources */,
+				39ECDB4A20833B3B006A90B8 /* ContentViewController.swift in Sources */,
+				395A2444203EE19400E39825 /* BithumbResult.swift in Sources */,
+				39E76E9D203D3BD80012B848 /* SideMenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +504,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +512,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -215,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,6 +563,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +571,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -266,7 +593,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -276,31 +603,35 @@
 		};
 		395D7F39203C65E4009DA67C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951C9819B1F1AD14D4FF27B0 /* Pods-ProjectCrypto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ProjectCrypto/ProjectCrypto.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N7THUBBPH8;
 				INFOPLIST_FILE = ProjectCrypto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.Swiftbook.ProjectCrypto;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ProjectCryptoExchanges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		395D7F3A203C65E4009DA67C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4618A7A4A0889EEBF07DFC /* Pods-ProjectCrypto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ProjectCrypto/ProjectCrypto.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N7THUBBPH8;
 				INFOPLIST_FILE = ProjectCrypto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.Swiftbook.ProjectCrypto;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ProjectCryptoExchanges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
